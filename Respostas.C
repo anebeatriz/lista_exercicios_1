@@ -194,3 +194,42 @@ int main() {
 Faça um programa que conte de 1 a 30, mas pule os números múltiplos de 3.
 
 
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n < 30){
+        if(n % 3 == 0){
+            printf("\nEsse número é múltiplo de 3");
+            n++;
+        }else{
+            printf("\n %d", n);
+            n++;
+        }
+    }
+    
+    return 0;
+}
+
+OU
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n < 30){
+        if(n % 3 == 0){
+            n++;
+        }else{
+            printf("\n %d", n);
+            n++;
+        }
+    }
+    
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+ Escreva um programa que solicite dois números e informe se são iguais.
