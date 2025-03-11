@@ -151,3 +151,25 @@ int main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Faça um programa que peça dois números ao usuário e imprima o maior deles.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    printf("Digite o primeiro número: ");
+    scanf(" %d", &a);
+    printf("Digite o segundo número: ");
+    scanf(" %d" , &b);
+    
+    if(a < b){
+        printf(" %d é o maior número", b);
+    }else{
+        printf(" %d é o maior número", a);
+    }
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+ Escreva um programa que solicite o nome do usuário e imprima uma saudação personalizada.
