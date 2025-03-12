@@ -233,3 +233,68 @@ int main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
  Escreva um programa que solicite dois números e informe se são iguais.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    int b;
+    printf("Digite um número número: ");
+    scanf(" %d" , &a);
+    printf("Digite um outro número número: ");
+    scanf(" %d" , &b);
+    
+    if(a == b){
+        printf("Os números são iguais");
+    }else{
+        printf("Os números são diferentes");
+    }
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Crie um programa que imprima a tabuada de multiplicação de um número fornecido pelo usuário.
+
+#include <stdio.h>
+
+int main() {
+    int a;
+    int c= 1;
+    printf("Digite um número: ");
+    scanf("%d" , &a);
+    
+    while(c <= 10){
+        printf("%d\n" , c * a);
+        c++;
+    }
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Faça um programa que conte de 1 a 100 e imprima "Fizz" para números divisíveis por 3 e "Buzz" para números divisíveis por 5. Para números que são divisíveis por ambos, imprima "FizzBuzz".
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n <= 100 && n >= 0){
+        if(n % 3 == 0 && n % 5 == 0){
+            printf(" %d FizzBuzz \n" , n);
+        }else if(n % 5 == 0){
+            printf(" %d Buzz \n" , n);
+        }else if(n % 3 == 0){
+            printf(" %d Fizz \n" , n);
+        }else{
+            printf("Não é divisível por nenhum dos dois \n");
+        }
+        n++;
+    }
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Escreva um programa que solicite um número e verifique se está na sequência de Fibonacci.
