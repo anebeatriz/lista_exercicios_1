@@ -298,3 +298,40 @@ int main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Escreva um programa que solicite um número e verifique se está na sequência de Fibonacci.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+ Crie um programa que peça a altura e o peso do usuário e calcule o índice de massa corporal (IMC).
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Faça um programa que solicite um número e imprima se é primo ou não.
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Escreva um programa que simule um jogo de adivinhação, onde o computador escolhe um número aleatório e o usuário tenta adivinhar.
+
+#include <stdio.h>
+
+int main() {
+    int n = 10;
+    int a;
+    printf("Tente advinhar o número: ");
+    scanf("%d" , &a);
+    
+    if(a == n){
+        printf("Você acertou o número!");
+    }else{
+        printf("Você errou o número :(");
+    }
+    
+    
+
+    return 0;
+}
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Crie um programa que imprima os números primos de 1 a 50.
