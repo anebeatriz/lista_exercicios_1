@@ -334,4 +334,35 @@ int main() {
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Crie um programa que imprima os números primos de 1 a 50.
+Crie um programa que imprima os números primos de 1 a 50. ERRADO, ARRUMAR!!!!
+
+#include <stdio.h>
+
+int main() {
+    int n = 0;
+    
+    while(n <= 50){
+        if(n%2==0){
+            printf("Não é primo! \n");
+        }else if(n%3==0){
+            printf("Não é primo! \n");
+        }else if(n%4==0){
+            printf("Não é primo! \n");
+        }else if(n%5==0){
+            printf("Não é primo! \n");
+        }else if(n%6==0){
+            printf("Não é primo! \n");
+        }else if(n%7==0){
+            printf("Não é primo! \n");
+        }else if(n%8==0){
+            printf("Não é primo! \n");
+        }else if(n%9==0){
+            printf("Não é primo! \n");
+        }else if(n%10==0){
+            printf("Não é primo! \n");
+        }
+        n++;
+    }
+
+    return 0;
+}
