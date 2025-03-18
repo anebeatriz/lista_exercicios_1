@@ -304,7 +304,23 @@ Escreva um programa que solicite um número e verifique se está na sequência d
 ------------------------------------------------------------------------------------------------------------------------------------------------
  Crie um programa que peça a altura e o peso do usuário e calcule o índice de massa corporal (IMC).
 
+#include <stdio.h>
 
+int main(){
+    float alt;
+    float peso;
+
+    printf("Digite sua altura: ");
+    scanf(" %f", &alt);
+    printf("Digite seu peso: ");
+    scanf(" %f", &peso);
+   
+    int imc = peso/(alt*alt);
+    printf("Seu IMC é: %d ", imc);
+    
+    
+    return 0;
+}
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Faça um programa que solicite um número e imprima se é primo ou não.
@@ -335,6 +351,8 @@ int main() {
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Crie um programa que imprima os números primos de 1 a 50. ERRADO, ARRUMAR!!!!
+
+Números primos:2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47
 
 #include <stdio.h>
 
