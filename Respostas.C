@@ -323,9 +323,29 @@ int main(){
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Faça um programa que solicite um número e imprima se é primo ou não.
+Faça um programa que solicite um número e imprima se é primo ou não. ARRUMAR!!!!!!!!
 
+#include <stdio.h>
 
+int main(){
+    int n;
+    int a = 1;
+    int b = 2;
+    int c = 3;
+    int d = 4;
+    int e = 5;
+    printf("Digite um número: ");
+    scanf("%d" , n);
+    
+    if(n%a == 0 || n%b == 0 || n%c == 0 || n%d == 0 || n%e == 0 || ){
+        printf("É número primo!");
+    }else{
+        printf("Não é número primo!");
+    }
+    
+    
+    return 0;
+}
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
 Escreva um programa que simule um jogo de adivinhação, onde o computador escolhe um número aleatório e o usuário tenta adivinhar.
