@@ -323,27 +323,33 @@ int main(){
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Faça um programa que solicite um número e imprima se é primo ou não. ARRUMAR!!!!!!!!
+Faça um programa que solicite um número e imprima se é primo ou não.
 
 #include <stdio.h>
 
-int main(){
+int main() {
     int n;
-    int a = 1;
-    int b = 2;
-    int c = 3;
-    int d = 4;
-    int e = 5;
+    int a;
+    int primo = 1;
     printf("Digite um número: ");
-    scanf("%d" , n);
-    
-    if(n%a == 0 || n%b == 0 || n%c == 0 || n%d == 0 || n%e == 0 || ){
-        printf("É número primo!");
+    scanf("%d", &n);
+
+    if(n < 2){
+        primo = 0;
     }else{
-        printf("Não é número primo!");
+        for(a = 2; a * a <= n; a++){
+            if(n % a == 0){
+                primo = 0;
+                break;
+            }
+        }
     }
-    
-    
+    if (primo){
+        printf("É um número primo!\n");
+    }
+    else{
+        printf("Não é um número primo!\n");
+    }
     return 0;
 }
 
