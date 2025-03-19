@@ -297,7 +297,7 @@ int main() {
 }
 
 ------------------------------------------------------------------------------------------------------------------------------------------------
-Escreva um programa que solicite um número e verifique se está na sequência de Fibonacci.
+Escreva um programa que solicite um número e verifique se está na sequência de Fibonacci. ( 0+1=1; 1+1=2; 1+2=3; 2+3=5; 3+5=8; 5+8=13).0,1,1,2,3,5,8,13. 
 
 
 
