@@ -301,6 +301,7 @@ Escreva um programa que solicite um número e verifique se está na sequência d
 
 
 
+
 ------------------------------------------------------------------------------------------------------------------------------------------------
  Crie um programa que peça a altura e o peso do usuário e calcule o índice de massa corporal (IMC).
 
